@@ -1,3 +1,79 @@
 /**
  * fil: css/style.css
  **/
+
+/* google fonts her: */
+@import url('https://fonts.googleapis.com/css?family=Coda+Caption:800&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lacquer|Libre+Franklin|Slabo+27px&display=swap');
+
+body {
+    background-color: floralwhite; /* bg farve */
+    background-image: url(../images/DSC07749.JPG); /* bg img */
+    color: cornflowerblue; /* tekstfarve */
+    background-size: cover;
+}
+
+p {
+    color:cornflowerblue;
+    background-color: darkgrey;
+    width: 33%; 
+    font-size: 110%;
+    
+    /* Her bruges en google font Coda Caption */
+    font-family:'Coda Caption', sans-serif;
+    
+    padding: 24px;
+    margin: 48px
+}
+
+/* en id # */
+#en {
+    position: absolute; 
+    top: 123x;
+    left: 37px;
+    color:darkorange;
+    transform: rotate(0deg);
+    width: 258px;
+}
+
+.to {
+    color: fuchsia;
+    margin-left: 300px;
+    position:relative;
+    left: 500px;
+}
+
+#galleri{
+    background-color: #fff;
+}
+
+.galleri {
+    position: relative;
+    float: left; 
+    width: 250px;
+    height: auto;
+    margin: 10px;
+}
+
+nav {
+    position: fixed;
+    background-color: lightblue;
+    color:#fff;
+    padding: 2em 2em 2em 2em;  
+         
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: lavenderblush;
+    font-size: 30px;
+    font-family: 'Lacquer', sans-serif;
+    
+}
+
+nav ul li a:hover {
+    color: lightcoral;
+}
+nav ul li {
+    display: inline
+}
